@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2021-05-12">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="MSFT" label="MSFT" />
+      <node id="ADBE" label="ADBE" />
+      <node id="PYPL" label="PYPL" />
+      <node id="AMZN" label="AMZN" />
+      <node id="TXN" label="TXN" />
+      <node id="NVDA" label="NVDA" />
+      <node id="GOOGL" label="GOOGL" />
+      <node id="GOOG" label="GOOG" />
+      <node id="AAPL" label="AAPL" />
+      <node id="FB" label="FB" />
+      <node id="NFLX" label="NFLX" />
+      <node id="CRM" label="CRM" />
+      <node id="INTC" label="INTC" />
+      <node id="ACN" label="ACN" />
+      <node id="V" label="V" />
+      <node id="MA" label="MA" />
+      <node id="MDT" label="MDT" />
+      <node id="PM" label="PM" />
+      <node id="CMCSA" label="CMCSA" />
+      <node id="COST" label="COST" />
+      <node id="LIN" label="LIN" />
+      <node id="NKE" label="NKE" />
+      <node id="PEP" label="PEP" />
+      <node id="PG" label="PG" />
+      <node id="KO" label="KO" />
+      <node id="NEE" label="NEE" />
+      <node id="DHR" label="DHR" />
+      <node id="TMO" label="TMO" />
+      <node id="ABT" label="ABT" />
+      <node id="JNJ" label="JNJ" />
+      <node id="MCD" label="MCD" />
+      <node id="VZ" label="VZ" />
+      <node id="WMT" label="WMT" />
+      <node id="AMGN" label="AMGN" />
+      <node id="T" label="T" />
+      <node id="MRK" label="MRK" />
+      <node id="BMY" label="BMY" />
+      <node id="ABBV" label="ABBV" />
+      <node id="PFE" label="PFE" />
+      <node id="BAC" label="BAC" />
+      <node id="JPM" label="JPM" />
+      <node id="XOM" label="XOM" />
+      <node id="CVX" label="CVX" />
+      <node id="CSCO" label="CSCO" />
+      <node id="UNH" label="UNH" />
+      <node id="HD" label="HD" />
+      <node id="LLY" label="LLY" />
+    </nodes>
+    <edges>
+      <edge id="0" source="MSFT" target="ADBE" />
+      <edge id="1" source="MSFT" target="GOOGL" />
+      <edge id="2" source="ADBE" target="PYPL" />
+      <edge id="3" source="ADBE" target="AMZN" />
+      <edge id="4" source="ADBE" target="AAPL" />
+      <edge id="5" source="ADBE" target="NFLX" />
+      <edge id="6" source="ADBE" target="CRM" />
+      <edge id="7" source="PYPL" target="TXN" />
+      <edge id="8" source="AMZN" target="FB" />
+      <edge id="9" source="AMZN" target="COST" />
+      <edge id="10" source="TXN" target="NVDA" />
+      <edge id="11" source="TXN" target="INTC" />
+      <edge id="12" source="TXN" target="ACN" />
+      <edge id="13" source="TXN" target="DHR" />
+      <edge id="14" source="GOOGL" target="GOOG" />
+      <edge id="15" source="ACN" target="V" />
+      <edge id="16" source="ACN" target="LIN" />
+      <edge id="17" source="ACN" target="NKE" />
+      <edge id="18" source="ACN" target="CSCO" />
+      <edge id="19" source="V" target="MA" />
+      <edge id="20" source="MA" target="MDT" />
+      <edge id="21" source="MDT" target="PM" />
+      <edge id="22" source="MDT" target="CMCSA" />
+      <edge id="23" source="PM" target="JNJ" />
+      <edge id="24" source="PM" target="BAC" />
+      <edge id="25" source="CMCSA" target="PEP" />
+      <edge id="26" source="COST" target="WMT" />
+      <edge id="27" source="COST" target="HD" />
+      <edge id="28" source="LIN" target="NEE" />
+      <edge id="29" source="PEP" target="PG" />
+      <edge id="30" source="PEP" target="KO" />
+      <edge id="31" source="PG" target="VZ" />
+      <edge id="32" source="PG" target="UNH" />
+      <edge id="33" source="KO" target="MCD" />
+      <edge id="34" source="DHR" target="TMO" />
+      <edge id="35" source="TMO" target="ABT" />
+      <edge id="36" source="JNJ" target="AMGN" />
+      <edge id="37" source="VZ" target="T" />
+      <edge id="38" source="VZ" target="MRK" />
+      <edge id="39" source="MRK" target="BMY" />
+      <edge id="40" source="MRK" target="PFE" />
+      <edge id="41" source="BMY" target="ABBV" />
+      <edge id="42" source="BMY" target="LLY" />
+      <edge id="43" source="BAC" target="JPM" />
+      <edge id="44" source="BAC" target="XOM" />
+      <edge id="45" source="XOM" target="CVX" />
+    </edges>
+  </graph>
+</gexf>
